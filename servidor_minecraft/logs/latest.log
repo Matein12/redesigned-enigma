@@ -300,3 +300,26 @@ Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.configurati
 [23:03:06] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /kick Crisgamer0610
 [23:03:06] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Crisgamer0610 lost connection: Kicked by an operator
 [23:03:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Kicked Crisgamer0610: Kicked by an operator]
+[23:03:15] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl]: UUID of player Crisgamer0610 is 760134e0-207b-3a0e-ab99-06014f990c73
+[23:03:17] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Crisgamer0610[/127.0.0.1:36918] logged in with entity id 4142 at ([world]-321.2861635727674, 68.0, 125.70758186187082)
+[23:04:42] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Crisgamer0610 lost connection: Timed out
+[23:05:14] [User Authenticator #5/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl]: UUID of player Crisgamer0610 is 760134e0-207b-3a0e-ab99-06014f990c73
+[23:05:16] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Crisgamer0610[/127.0.0.1:57100] logged in with entity id 4433 at ([world]-321.1287803883093, 79.0, 130.13775564653216)
+[23:06:40] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /gamemode survival
+[23:06:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set own game mode to Survival Mode]
+[23:09:36] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /give Mathewsito minecraft:totem_of_undying{CustomModelData:1}
+[23:09:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Gave 1 [Totem of Undying] to Mathewsito]
+[23:10:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Mathewsito has reached the goal [Postmortal]
+[23:10:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Mathewsito has made the advancement [Monster Hunter]
+[23:10:34] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /gamemode creative
+[23:10:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set own game mode to Creative Mode]
+[23:10:38] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /gamemode survival
+[23:10:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set own game mode to Survival Mode]
+[23:12:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Crisgamer0610 was slain by Zombie
+[23:12:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Mathewsito was slain by Zombie
+[23:12:48] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /time set day
+[23:12:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set the time to 1000]
+[23:12:54] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /tp Crisgamer0610
+[23:12:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Teleported Mathewsito to Crisgamer0610]
+[23:13:05] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /difficulty peaceful
+[23:13:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: The difficulty has been set to Peaceful]
