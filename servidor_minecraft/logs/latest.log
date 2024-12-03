@@ -155,3 +155,148 @@
 [22:50:13] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /gamemode creative
 [22:50:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set own game mode to Creative Mode]
 [22:51:56] [Async Chat Thread - #3/INFO] [net.minecraft.server.MinecraftServer]: <Mathewsito> ҂
+[22:55:28] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /papi ecloud download Player
+[22:55:29] [placeholderapi-io-#1/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Fetching available expansion information...
+[22:55:31] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /papi reload
+[22:55:31] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[22:55:31] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Fetching available expansion information...
+[22:55:31] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[22:55:39] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ce reload
+[22:55:39] [Server thread/ERROR] [Minecraft]: Cannot load plugins/ConditionalEvents/events/more_events.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 13, column 7:
+          default:
+          ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 15, column 40:
+     ...  "console_command: tellraw @a ["",{"text":"\u0482 "},{"text":"%p ... 
+                                         ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at ce.ajneb97.configs.CEConfig.loadConfiguration(CEConfig.java:108) ~[?:?]
+	at ce.ajneb97.configs.CEConfig.reloadConfig(CEConfig.java:75) ~[?:?]
+	at ce.ajneb97.configs.CEConfig.getConfig(CEConfig.java:61) ~[?:?]
+	at ce.ajneb97.configs.ConfigsManager.configureEvents(ConfigsManager.java:56) ~[?:?]
+	at ce.ajneb97.configs.ConfigsManager.reload(ConfigsManager.java:267) ~[?:?]
+	at ce.ajneb97.MainCommand.onCommand(MainCommand.java:47) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:836) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:9f15450b-1f2dd8e12-7d7b241e]
+	at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:50) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[brigadier-1.20.1.jar%23130!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:318) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerGamePacketListenerImpl.java:1799) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_244885_(ServerGamePacketListenerImpl.java:1763) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1082) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:191) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:1065) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:1059) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:1044) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:956) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:301) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: com.mohistmc.org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 13, column 7:
+          default:
+          ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 15, column 40:
+     ...  "console_command: tellraw @a ["",{"text":"\u0482 "},{"text":"%p ... 
+                                         ^
+
+	at com.mohistmc.org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:679) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:185) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:277) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:210) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:134) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:160) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.Yaml.compose(Yaml.java:559) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	... 31 more
+[22:55:39] [Server thread/ERROR] [Minecraft]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'ce' in plugin ConditionalEvents v4.57.4
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:836) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:9f15450b-1f2dd8e12-7d7b241e]
+	at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:50) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[brigadier-1.20.1.jar%23130!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:318) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerGamePacketListenerImpl.java:1799) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_244885_(ServerGamePacketListenerImpl.java:1763) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1082) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:191) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:1065) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:1059) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:1044) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:956) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:301) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.configuration.file.FileConfiguration.contains(String)" because "config" is null
+	at ce.ajneb97.configs.ConfigsManager.configureEvents(ConfigsManager.java:58) ~[?:?]
+	at ce.ajneb97.configs.ConfigsManager.reload(ConfigsManager.java:267) ~[?:?]
+	at ce.ajneb97.MainCommand.onCommand(MainCommand.java:47) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	... 22 more
+[22:55:49] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ce reload
+[22:55:54] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl]: UUID of player Mathewsito is 0a15881a-5d49-38be-8130-84c2fd191980
+[22:55:56] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito lost connection: You logged in from another location
+[22:55:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Mathewsito left the game.
+[22:55:56] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Mathewsito[/127.0.0.1:34102] logged in with entity id 3097 at ([world]-311.9484803067956, 74.0, 125.04350714495034)
+[22:55:58] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl]: UUID of player Mathewsito is 0a15881a-5d49-38be-8130-84c2fd191980
+[22:56:00] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito lost connection: You logged in from another location
+[22:56:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Mathewsito left the game.
+[22:56:00] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Mathewsito[/127.0.0.1:34122] logged in with entity id 3104 at ([world]-311.9484803067956, 74.0, 125.04350714495034)
+[22:58:41] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ce reload
+[22:58:52] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /time set dat
+[22:58:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Crisgamer0610 was slain by Zombie
+[22:58:54] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /time set day
+[22:58:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set the time to 1000]
+[22:59:00] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl]: UUID of player Crisgamer0610 is 760134e0-207b-3a0e-ab99-06014f990c73
+[22:59:02] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Crisgamer0610 lost connection: You logged in from another location
+[22:59:02] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Crisgamer0610[/127.0.0.1:44364] logged in with entity id 3488 at ([world]-313.30000001192093, 65.22149363870948, 132.87314612698523)
+[22:59:18] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /kick Crisgamer0610
+[22:59:18] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Crisgamer0610 lost connection: Kicked by an operator
+[22:59:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Kicked Crisgamer0610: Kicked by an operator]
+[22:59:41] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl]: UUID of player Crisgamer0610 is 760134e0-207b-3a0e-ab99-06014f990c73
+[22:59:43] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Crisgamer0610[/127.0.0.1:38062] logged in with entity id 3626 at ([world]-292.69999998807907, 64.0, 97.2340563053668)
+[23:01:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Crisgamer0610 has made the advancement [Monster Hunter]
+[23:02:44] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ce reload
+[23:03:06] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /kick Crisgamer0610
+[23:03:06] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Crisgamer0610 lost connection: Kicked by an operator
+[23:03:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Kicked Crisgamer0610: Kicked by an operator]

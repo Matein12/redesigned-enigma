@@ -11,4 +11,18 @@ Events:
     type: player_join
     actions:
       default:
-      - 
+      - 'hide_join_message: true'
+      - 'console_command: tellraw @a ["",{"text":"\u0482 "},{"text":"%player% se ha conectado","color":"#68E52A"}]'
+  LeaveMessage:
+    type: player_leave
+    actions:
+      default:
+      - 'hide_leave_message: true'
+      - 'console_command: tellraw @a ["",{"text":"\u058e "},{"text":"%player% se ha desconectado","color":"#ABA7A4"}]'
+  ChatMessage:
+    type: player_chat
+    actions:
+      default:
+      - "cancel_event: true"
+      - 'console_command: tellraw @a ["",{"text":"%player%:","color":"#679FA9"},{"text":" %message%"}]'
+
