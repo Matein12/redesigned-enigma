@@ -1,5 +1,5 @@
 execute unless score @s cpala.ded3s.anim matches ..292 run scoreboard players set @s cpala.ded3s.anim 292
-execute if score @s cpala.ded3s.anim matches 292 run playsound cpaladeds3:ruleta ambient @s ~ ~ ~ 4 1 1
+execute if score @s cpala.ded3s.anim matches 292 run playsound dedsafio:ruleta ambient @s ~ ~ ~ 4 1 1
 execute if score @s cpala.ded3s.anim matches 292 run title @a times 0 3 0
 
 execute if score @s cpala.ded3s.anim matches 294 run title @s title {"text":"\uE2A0"}

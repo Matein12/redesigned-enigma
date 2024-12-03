@@ -1,11 +1,13 @@
 Events:
   RuletaAmarilla:
     type: player_command
-    condtiions:
-    - "%command% == /ruletaamarilla"
+    conditions:
+    - '%main_command% == /ruletaamarilla'
     actions:
       default:
-      - "console_command: tag add @a anim.ruleta.amarilla"
-      - "to_all: playsound_resource_pack: RULETA;10;1"
+      - "console_command: tag @a add anim.ruleta.amarilla"
       - "wait: 14"
+      - 'console_command: tellraw @a {"text":""}'
+      - 'console_command: tellraw @a ["",{"text":"\u0482 "},{"text":"\u25b6 ","color":"#F7FB08"},{"text":"Dedciclopedia:","bold":true,"color":"#F7FB08"}]'
+      - 'console_command: tellraw @a {"text":""}'
 

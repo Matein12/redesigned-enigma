@@ -2219,3 +2219,464 @@ Caused by: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character i
 	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
 	... 20 more
+[23:43:34] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: Gathering id map for writing to world save world
+[23:43:34] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: ID Map collection complete world
+[23:43:51] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ce reload
+[23:43:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Incorrect argument for command
+[23:43:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: tag add @a anim.ruleta.amarilla<--[HERE]
+[23:43:51] [Server thread/ERROR] [Minecraft]: Could not pass event PlayerCommandPreprocessEvent to ConditionalEvents v4.57.4
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerGamePacketListenerImpl.java:1777) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_244885_(ServerGamePacketListenerImpl.java:1763) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1082) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:191) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:1065) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:1059) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:1045) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:956) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:301) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:RULETA
+	at net.minecraft.resources.ResourceLocation.m_245185_(ResourceLocation.java:236) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:46) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at org.bukkit.craftbukkit.v1_19_R3.entity.CraftPlayer.playSound(CraftPlayer.java:481) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.craftbukkit.v1_19_R3.entity.CraftPlayer.playSound(CraftPlayer.java:466) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at ce.ajneb97.utils.ActionUtils.playSoundResourcePack(ActionUtils.java:300) ~[?:?]
+	at ce.ajneb97.model.internal.ExecutedEvent.executeAction(ExecutedEvent.java:292) ~[?:?]
+	at ce.ajneb97.model.internal.ExecutedEvent.executeActionsFromToTarget(ExecutedEvent.java:224) ~[?:?]
+	at ce.ajneb97.model.internal.ExecutedEvent.executeActionsFinal(ExecutedEvent.java:143) ~[?:?]
+	at ce.ajneb97.model.internal.ExecutedEvent.executeActions(ExecutedEvent.java:98) ~[?:?]
+	at ce.ajneb97.managers.EventsManager.checkSingularEvent(EventsManager.java:133) ~[?:?]
+	at ce.ajneb97.managers.EventsManager.checkEvent(EventsManager.java:48) ~[?:?]
+	at ce.ajneb97.model.internal.ConditionEvent.checkEvent(ConditionEvent.java:77) ~[?:?]
+	at ce.ajneb97.listeners.PlayerEventsListener.onCommandUse(PlayerEventsListener.java:319) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor36.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	... 20 more
+[23:43:52] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ruletaamarilla
+[23:43:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Added tag 'anim.ruleta.amarilla' to 2 entities
+[23:43:52] [Server thread/ERROR] [Minecraft]: Could not pass event PlayerCommandPreprocessEvent to ConditionalEvents v4.57.4
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerGamePacketListenerImpl.java:1777) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_244885_(ServerGamePacketListenerImpl.java:1763) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1082) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:191) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:1065) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:1059) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:1045) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:956) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:301) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:RULETA
+	at net.minecraft.resources.ResourceLocation.m_245185_(ResourceLocation.java:236) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:46) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at org.bukkit.craftbukkit.v1_19_R3.entity.CraftPlayer.playSound(CraftPlayer.java:481) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.craftbukkit.v1_19_R3.entity.CraftPlayer.playSound(CraftPlayer.java:466) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at ce.ajneb97.utils.ActionUtils.playSoundResourcePack(ActionUtils.java:300) ~[?:?]
+	at ce.ajneb97.model.internal.ExecutedEvent.executeAction(ExecutedEvent.java:292) ~[?:?]
+	at ce.ajneb97.model.internal.ExecutedEvent.executeActionsFromToTarget(ExecutedEvent.java:224) ~[?:?]
+	at ce.ajneb97.model.internal.ExecutedEvent.executeActionsFinal(ExecutedEvent.java:143) ~[?:?]
+	at ce.ajneb97.model.internal.ExecutedEvent.executeActions(ExecutedEvent.java:98) ~[?:?]
+	at ce.ajneb97.managers.EventsManager.checkSingularEvent(EventsManager.java:133) ~[?:?]
+	at ce.ajneb97.managers.EventsManager.checkEvent(EventsManager.java:48) ~[?:?]
+	at ce.ajneb97.model.internal.ConditionEvent.checkEvent(ConditionEvent.java:77) ~[?:?]
+	at ce.ajneb97.listeners.PlayerEventsListener.onCommandUse(PlayerEventsListener.java:319) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor36.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	... 20 more
+[23:44:28] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ce reload
+[23:44:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Added tag 'anim.ruleta.amarilla' to 2 entities
+[23:44:28] [Server thread/ERROR] [Minecraft]: Could not pass event PlayerCommandPreprocessEvent to ConditionalEvents v4.57.4
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerGamePacketListenerImpl.java:1777) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_244885_(ServerGamePacketListenerImpl.java:1763) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1082) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:191) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:1065) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:1059) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:1045) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:956) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:301) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:RULETA
+	at net.minecraft.resources.ResourceLocation.m_245185_(ResourceLocation.java:236) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:46) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at org.bukkit.craftbukkit.v1_19_R3.entity.CraftPlayer.playSound(CraftPlayer.java:481) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.craftbukkit.v1_19_R3.entity.CraftPlayer.playSound(CraftPlayer.java:466) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at ce.ajneb97.utils.ActionUtils.playSoundResourcePack(ActionUtils.java:300) ~[?:?]
+	at ce.ajneb97.model.internal.ExecutedEvent.executeAction(ExecutedEvent.java:292) ~[?:?]
+	at ce.ajneb97.model.internal.ExecutedEvent.executeActionsFromToTarget(ExecutedEvent.java:224) ~[?:?]
+	at ce.ajneb97.model.internal.ExecutedEvent.executeActionsFinal(ExecutedEvent.java:143) ~[?:?]
+	at ce.ajneb97.model.internal.ExecutedEvent.executeActions(ExecutedEvent.java:98) ~[?:?]
+	at ce.ajneb97.managers.EventsManager.checkSingularEvent(EventsManager.java:133) ~[?:?]
+	at ce.ajneb97.managers.EventsManager.checkEvent(EventsManager.java:48) ~[?:?]
+	at ce.ajneb97.model.internal.ConditionEvent.checkEvent(ConditionEvent.java:77) ~[?:?]
+	at ce.ajneb97.listeners.PlayerEventsListener.onCommandUse(PlayerEventsListener.java:319) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor36.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	... 20 more
+[23:44:50] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ce reload
+[23:44:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Added tag 'anim.ruleta.amarilla' to 2 entities
+[23:45:32] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ce reload
+[23:45:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Added tag 'anim.ruleta.amarilla' to 2 entities
+[23:46:40] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ce reload
+[23:46:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Added tag 'anim.ruleta.amarilla' to 2 entities
+[23:47:00] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ce reload
+[23:47:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Added tag 'anim.ruleta.amarilla' to 2 entities
+[23:47:16] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ce reload
+[23:48:03] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ce reload
+[23:48:05] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ruletaamarilla
+[23:48:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Added tag 'anim.ruleta.amarilla' to 2 entities
+[23:48:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: The sound is too far away to be heard
+[23:48:34] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: Gathering id map for writing to world save world
+[23:48:34] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: ID Map collection complete world
+[23:48:38] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ruletaamarilla
+[23:48:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Added tag 'anim.ruleta.amarilla' to 2 entities
+[23:48:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: The sound is too far away to be heard
+[23:49:17] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ce reload
+[23:49:18] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ruletaamarilla
+[23:49:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Added tag 'anim.ruleta.amarilla' to 2 entities
+[23:50:49] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /datapack disable "file/Dedsafio 3 Vanilla 1.18 - 1.20.4 - Club Pala"
+[23:50:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Disabling data pack [file/Dedsafio 3 Vanilla 1.18 - 1.20.4 - Club Pala (world)]]
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(advancement)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(attribute)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(execute)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(execute)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(bossbar)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(clear)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(clone)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(damage)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(data)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(datapack)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(debug)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(defaultgamemode)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(difficulty)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(effect)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(me)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(enchant)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(experience)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(xp)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(fill)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(fillbiome)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(forceload)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(function)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(gamemode)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(gamerule)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(give)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(help)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(item)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(kick)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(kill)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(list)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(locate)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(loot)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(msg)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(tell)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(w)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(particle)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(place)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(playsound)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(reload)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(recipe)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(ride)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(say)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(schedule)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(scoreboard)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(seed)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(setblock)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(spawnpoint)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(setworldspawn)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(spectate)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(spreadplayers)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(stopsound)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(summon)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(tag)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(team)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(teammsg)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(tm)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(teleport)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(tp)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(tellraw)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(time)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(title)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(trigger)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(weather)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(worldborder)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(jfr)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(ban-ip)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(banlist)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(ban)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(deop)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(op)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(pardon)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(pardon-ip)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(perf)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(save-all)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(save-off)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(save-on)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(setidletimeout)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(stop)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(whitelist)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(reviil)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(mision)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(dedmenu)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(forge)
+[23:50:49] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(config)
+[23:50:49] [Server thread/INFO] [Minecraft]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand()
+[23:50:49] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 7 recipes
+[23:50:49] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1179 advancements
+[23:50:54] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /datapack enable "file/Dedsafio 3 Vanilla 1.18 - 1.20.4 - Club Pala"
+[23:50:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Enabling data pack [file/Dedsafio 3 Vanilla 1.18 - 1.20.4 - Club Pala (world)]]
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(advancement)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(attribute)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(execute)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(execute)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(bossbar)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(clear)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(clone)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(damage)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(data)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(datapack)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(debug)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(defaultgamemode)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(difficulty)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(effect)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(me)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(enchant)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(experience)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(xp)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(fill)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(fillbiome)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(forceload)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(function)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(gamemode)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(gamerule)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(give)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(help)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(item)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(kick)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(kill)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(list)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(locate)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(loot)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(msg)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(tell)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(w)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(particle)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(place)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(playsound)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(reload)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(recipe)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(ride)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(say)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(schedule)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(scoreboard)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(seed)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(setblock)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(spawnpoint)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(setworldspawn)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(spectate)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(spreadplayers)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(stopsound)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(summon)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(tag)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(team)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(teammsg)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(tm)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(teleport)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(tp)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(tellraw)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(time)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(title)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(trigger)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(weather)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(worldborder)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(jfr)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(ban-ip)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(banlist)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(ban)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(deop)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(op)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(pardon)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(pardon-ip)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(perf)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(save-all)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(save-off)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(save-on)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(setidletimeout)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(stop)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(whitelist)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(reviil)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(mision)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(dedmenu)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(forge)
+[23:50:54] [Server thread/DEBUG] [com.mohistmc.MohistMC]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(config)
+[23:50:54] [Server thread/INFO] [Minecraft]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand()
+[23:50:54] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 7 recipes
+[23:50:54] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1179 advancements
+[23:50:59] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ruletaamarilla
+[23:50:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Added tag 'anim.ruleta.amarilla' to 2 entities
+[23:51:12] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /tps
+[23:51:19] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ce debug RuletaAmarilla
+[23:52:57] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ce reload
+[23:52:57] [Server thread/ERROR] [Minecraft]: Cannot load plugins/ConditionalEvents/events/ruletas.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 7, column 7:
+          default:
+          ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 10, column 40:
+     ...  "console_command: tellraw @a {"text":""}"
+                                         ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at ce.ajneb97.configs.CEConfig.loadConfiguration(CEConfig.java:108) ~[?:?]
+	at ce.ajneb97.configs.CEConfig.reloadConfig(CEConfig.java:75) ~[?:?]
+	at ce.ajneb97.configs.CEConfig.getConfig(CEConfig.java:61) ~[?:?]
+	at ce.ajneb97.configs.ConfigsManager.configureEvents(ConfigsManager.java:56) ~[?:?]
+	at ce.ajneb97.configs.ConfigsManager.reload(ConfigsManager.java:267) ~[?:?]
+	at ce.ajneb97.MainCommand.onCommand(MainCommand.java:47) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:836) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:9f15450b-1f2dd8e12-7d7b241e]
+	at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:50) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[brigadier-1.20.1.jar%23130!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:318) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerGamePacketListenerImpl.java:1799) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_244885_(ServerGamePacketListenerImpl.java:1763) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1082) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:191) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:1065) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:1059) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:1045) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:956) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:301) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: com.mohistmc.org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 7, column 7:
+          default:
+          ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 10, column 40:
+     ...  "console_command: tellraw @a {"text":""}"
+                                         ^
+
+	at com.mohistmc.org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:679) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:185) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:277) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:210) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:134) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:160) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at com.mohistmc.org.yaml.snakeyaml.Yaml.compose(Yaml.java:559) ~[librariesvault-1.19.2.jar%23131!/:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	... 31 more
+[23:52:57] [Server thread/ERROR] [Minecraft]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'ce' in plugin ConditionalEvents v4.57.4
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:836) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:9f15450b-1f2dd8e12-7d7b241e]
+	at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:50) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[brigadier-1.20.1.jar%23130!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:318) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerGamePacketListenerImpl.java:1799) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_244885_(ServerGamePacketListenerImpl.java:1763) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1082) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:191) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:1065) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:1059) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:1045) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:956) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:301) ~[server-1.19.4-20230314.122934-srg.jar%23181!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.configuration.file.FileConfiguration.contains(String)" because "config" is null
+	at ce.ajneb97.configs.ConfigsManager.configureEvents(ConfigsManager.java:58) ~[?:?]
+	at ce.ajneb97.configs.ConfigsManager.reload(ConfigsManager.java:267) ~[?:?]
+	at ce.ajneb97.MainCommand.onCommand(MainCommand.java:47) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[forge-1.19.4-45.3.3-universal.jar%23186!/:?]
+	... 22 more
+[23:53:14] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ce reload
+[23:53:25] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ruletaamarilla
+[23:53:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Added tag 'anim.ruleta.amarilla' to 2 entities
+[23:53:34] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: Gathering id map for writing to world save world
+[23:53:34] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: ID Map collection complete world
