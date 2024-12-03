@@ -25,5 +25,10 @@
     "attack_speed": {},
     "attack_dmg": {}
   },
-  "skins": {}
+  "skins": {
+    "760134e0-207b-3a0e-ab99-06014f990c73": {
+      "forced": true,
+      "model": "UwsBAQQuLWdpdDpNYXRlaW4xMi8wNTI2NTNjNDY3ZjQxMjhhYTk0NzM4NmJhNmI3NDRhMQAADNs\u003d"
+    }
+  }
 }

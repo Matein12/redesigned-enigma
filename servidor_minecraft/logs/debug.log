@@ -918,3 +918,40 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [22:38:34] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: Gathering id map for writing to world save world
 [22:38:34] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: ID Map collection complete world
 [22:39:34] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Crisgamer0610 issued server command: /SKIN
+[22:43:34] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: Gathering id map for writing to world save world
+[22:43:34] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: ID Map collection complete world
+[22:43:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Made Mathewsito a server operator
+[22:44:01] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /cpm setskin -f Crisgamer0610 UwsBAQQuLWdpdDpNYXRlaW4xMi8wNTI2NTNjNDY3ZjQxMjhhYTk0NzM4NmJhNmI3NDRhMQAADNs=
+[22:44:32] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /time set day
+[22:44:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set the time to 1000]
+[22:44:40] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /gamemode creative
+[22:44:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set own game mode to Creative Mode]
+[22:44:46] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /gamemode survival
+[22:44:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set own game mode to Survival Mode]
+[22:46:09] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /gamemode creative
+[22:46:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set own game mode to Creative Mode]
+[22:46:16] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /tp Crisgamer0610 Mathewsito
+[22:46:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Teleported Crisgamer0610 to Mathewsito]
+[22:48:20] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /gamemode survival
+[22:48:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set own game mode to Survival Mode]
+[22:48:34] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: Gathering id map for writing to world save world
+[22:48:34] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: ID Map collection complete world
+[22:48:37] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /gamemode creative
+[22:48:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set own game mode to Creative Mode]
+[22:48:47] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /gamemode survival
+[22:48:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set own game mode to Survival Mode]
+[22:48:56] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /gamemode creative
+[22:48:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set own game mode to Creative Mode]
+[22:49:01] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /gamemode survival
+[22:49:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set own game mode to Survival Mode]
+[22:49:28] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /gamemode creative
+[22:49:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set own game mode to Creative Mode]
+[22:49:35] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /gamemode survival
+[22:49:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set own game mode to Survival Mode]
+[22:49:44] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /gamemode creative
+[22:49:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set own game mode to Creative Mode]
+[22:49:51] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /gamemode survival
+[22:49:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set own game mode to Survival Mode]
+[22:50:13] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /gamemode creative
+[22:50:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set own game mode to Creative Mode]
+[22:51:56] [Async Chat Thread - #3/INFO] [net.minecraft.server.MinecraftServer]: <Mathewsito> ҂
