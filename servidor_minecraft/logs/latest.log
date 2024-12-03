@@ -1,0 +1,124 @@
+[22:32:32] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 45.3.3, --fml.mcVersion, 1.19.4, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230314.122934, nogui]
+[22:32:32] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[22:32:32] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/redesigned-enigma/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23101!/ Service=ModLauncher Env=SERVER
+[22:32:33] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: No dependencies to load found. Skipping!
+[22:32:35] [main/INFO] [mixin]: Compatibility level set to JAVA_17
+[22:32:35] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
+[22:32:46] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist loading.....
+[22:32:46] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 45.3.3, for MC 1.19.4 with MCP 20230314.122934
+[22:32:46] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v45.3.3 Initialized
+[22:32:46] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[22:32:46] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker]: Global Forge version check system disabled, no further processing.
+[22:32:49] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:32:51] [main/INFO] [net.minecraft.server.MinecraftServer]: Found new data pack file/Dedsafio 3 Vanilla 1.18 - 1.20.4 - Club Pala, loading it automatically
+[22:32:53] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 7 recipes
+[22:32:54] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1179 advancements
+[22:32:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.19.4
+[22:32:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[22:32:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[22:32:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[22:32:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[22:32:56] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using epoll channel type
+[22:32:56] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:32:56] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[22:32:56] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:32:56] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:32:56] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.19.4-215 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT, Forge version 45.3.3)
+[22:32:57] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[22:32:57] [Server thread/INFO] []: Server Ping Player Sample Count: 12
+[22:32:57] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[22:32:59] [Server thread/INFO] [com.tom.cpm.bukkit.CPMBukkitPlugin]: [CustomizablePlayerModels] Loading CustomizablePlayerModels v0.6.19a
+[22:32:59] [Server thread/INFO] [xhasi.simpletimer.SimpleTimer]: [SimpleTimer] Loading SimpleTimer v1.5.2
+[22:32:59] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
+[22:32:59] [Server thread/INFO] [ce.ajneb97.ConditionalEvents]: [ConditionalEvents] Loading ConditionalEvents v4.57.4
+[22:32:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[22:33:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[22:33:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:18] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:18] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:19] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 4%
+[22:33:20] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 19%
+[22:33:20] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 72%
+[22:33:20] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 13143 ms
+[22:33:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
+[22:33:25] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:25] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:25] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:25] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:25] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:25] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:25] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:25] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:25] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:25] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:26] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:26] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:27] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 32%
+[22:33:27] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 6206 ms
+[22:33:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
+[22:33:29] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:29] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:29] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:29] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:29] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:29] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:30] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:30] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:33:31] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 3906 ms
+[22:33:31] [Server thread/INFO] [com.tom.cpm.bukkit.CPMBukkitPlugin]: [CustomizablePlayerModels] Enabling CustomizablePlayerModels v0.6.19a
+[22:33:31] [Server thread/WARN] [com.tom.cpm.bukkit.CPMBukkitPlugin]: [CustomizablePlayerModels] Command API not found, using fallback command system.
+[22:33:31] [Server thread/INFO] [com.tom.cpm.bukkit.CPMBukkitPlugin]: [CustomizablePlayerModels] Customizable Player Models Initialized
+[22:33:31] [Server thread/INFO] [xhasi.simpletimer.SimpleTimer]: [SimpleTimer] Enabling SimpleTimer v1.5.2
+[22:33:31] [Server thread/WARN] [xhasi.simpletimer.SimpleTimer]: [SimpleTimer] Loaded class me.clip.placeholderapi.expansion.PlaceholderExpansion from PlaceholderAPI v2.11.6 which is not a depend or softdepend of this plugin.
+[22:33:31] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered internal expansion: simpletimer [1.5.2]
+[22:33:31] [Server thread/INFO] [Console]: [SimpleTimer] Successfully Enabled (v1.5.2)
+[22:33:31] [Server thread/INFO] [Console]: [SimpleTimer] Xhasi » Thanks for using my plugin
+[22:33:31] [Server thread/INFO] [Console]: [SimpleTimer] There is a new version available. (v1.6.0)
+[22:33:31] [Server thread/INFO] [Console]: [SimpleTimer] You can download it at: https://www.spigotmc.org/resources/109565/
+[22:33:31] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[22:33:34] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Fetching available expansion information...
+[22:33:34] [Server thread/INFO] [ce.ajneb97.ConditionalEvents]: [ConditionalEvents] Enabling ConditionalEvents v4.57.4
+[22:33:34] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered internal expansion: conditionalevents [4.57.4]
+[22:33:34] [Server thread/INFO] [Console]: [ConditionalEvents] Has been enabled! Version: 4.57.4
+[22:33:34] [Server thread/INFO] [Console]: [ConditionalEvents] Thanks for using my plugin!   ~Ajneb97
+[22:33:34] [Server thread/INFO] [Console]: There is a new version available. (4.58.1)
+[22:33:34] [Server thread/INFO] [Console]: You can download it at: https://modrinth.com/plugin/conditionalevents
+[22:33:34] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[22:33:34] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[22:33:34] [Server thread/INFO] [Console]: 0 placeholder hook(s) registered!
+[22:33:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (35.655s)! For help, type "help"
+[22:33:34] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
+[22:34:22] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl]: UUID of player Mathewsito is 0a15881a-5d49-38be-8130-84c2fd191980
+[22:34:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Mathewsito joined the game
+[22:34:25] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Mathewsito[/127.0.0.1:33484] logged in with entity id 156 at ([world]-321.5, 66.0, 99.5)
+[22:34:53] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl]: UUID of player Crisgamer0610 is 760134e0-207b-3a0e-ab99-06014f990c73
+[22:35:23] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl]: com.mojang.authlib.GameProfile@51b23e2e[id=760134e0-207b-3a0e-ab99-06014f990c73,name=Crisgamer0610,properties={},legacy=false] (/127.0.0.1:41264) lost connection: Timed out
+[22:35:40] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl]: UUID of player Crisgamer0610 is 760134e0-207b-3a0e-ab99-06014f990c73
+[22:36:10] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl]: com.mojang.authlib.GameProfile@2a941033[id=760134e0-207b-3a0e-ab99-06014f990c73,name=Crisgamer0610,properties={},legacy=false] (/127.0.0.1:49646) lost connection: Timed out
+[22:36:36] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl]: UUID of player Crisgamer0610 is 760134e0-207b-3a0e-ab99-06014f990c73
+[22:36:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Crisgamer0610 joined the game
+[22:36:38] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Crisgamer0610[/127.0.0.1:55134] logged in with entity id 520 at ([world]-317.5, 66.0, 92.5)
+[22:36:42] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer]: <Crisgamer0610> AZ
+[22:37:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Crisgamer0610 has made the advancement [Stone Age]
+[22:37:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Crisgamer0610 has made the advancement [Getting an Upgrade]
+[22:39:34] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Crisgamer0610 issued server command: /SKIN
