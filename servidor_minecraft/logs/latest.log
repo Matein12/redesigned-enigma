@@ -323,3 +323,26 @@ Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.configurati
 [23:12:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Teleported Mathewsito to Crisgamer0610]
 [23:13:05] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /difficulty peaceful
 [23:13:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: The difficulty has been set to Peaceful]
+[23:13:21] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /tps
+[23:13:34] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /give Mathewsito minecraft:totem_of_undying{CustomModelData:1}
+[23:13:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Gave 1 [Totem of Undying] to Mathewsito]
+[23:13:38] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /give Mathewsito minecraft:totem_of_undying{CustomModelData:2}
+[23:13:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Gave 1 [Totem of Undying] to Mathewsito]
+[23:13:42] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /give Mathewsito minecraft:totem_of_undying{CustomModelData:3}
+[23:13:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Gave 1 [Totem of Undying] to Mathewsito]
+[23:13:46] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /give Mathewsito minecraft:totem_of_undying{CustomModelData:4}
+[23:13:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Gave 1 [Totem of Undying] to Mathewsito]
+[23:14:20] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /give Mathewsito minecraft:totem_of_undying{CustomModelData:5}
+[23:14:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Gave 1 [Totem of Undying] to Mathewsito]
+[23:14:29] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /gamemode spectator
+[23:14:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set own game mode to Spectator Mode]
+[23:14:31] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /gamemode creative
+[23:14:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set own game mode to Creative Mode]
+[23:14:47] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /function cpaladeds3:animacion/ruleta/amarilla
+[23:14:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Executed 295 command(s) from function 'cpaladeds3:animacion/ruleta/amarilla']
+[23:21:06] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /tag Mathewsito add anim.ruleta.amarilla
+[23:21:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Added tag 'anim.ruleta.amarilla' to Mathewsito]
+[23:21:22] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /tag Mathewsito add anim.ruleta.amarilla
+[23:21:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Added tag 'anim.ruleta.amarilla' to Mathewsito]
+[23:21:48] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /playsound dedsafio:ruleta master @a
+[23:21:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Played sound dedsafio:ruleta to 2 players]

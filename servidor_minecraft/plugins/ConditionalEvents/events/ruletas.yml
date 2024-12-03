@@ -1,0 +1,12 @@
+Events:
+  event8:
+    type: player_command
+    conditions:
+    - '%main_command% == /youtube'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'message: &7Check the Youtube: &b<link>'
+  RuletaAmarilla:
+    type: player_command
+
