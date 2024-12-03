@@ -9,4 +9,6 @@ Events:
       - 'message: &7Check the Youtube: &b<link>'
   RuletaAmarilla:
     type: player_command
+    condtiions:
+    - "%"
 
