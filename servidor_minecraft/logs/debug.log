@@ -2680,3 +2680,21 @@ Caused by: java.lang.NullPointerException: Cannot invoke "org.bukkit.configurati
 [23:53:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Added tag 'anim.ruleta.amarilla' to 2 entities
 [23:53:34] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: Gathering id map for writing to world save world
 [23:53:34] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: ID Map collection complete world
+[23:56:58] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ce reload
+[23:57:05] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ce reload
+[23:57:15] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ruletaamarilla
+[23:57:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Added tag 'anim.ruleta.amarilla' to 2 entities
+[23:58:02] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ce reload
+[23:58:04] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ruletaamarilla
+[23:58:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Added tag 'anim.ruleta.amarilla' to 2 entities
+[23:58:34] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: Gathering id map for writing to world save world
+[23:58:34] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: ID Map collection complete world
+[23:59:05] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ruletaamarilla
+[23:59:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Added tag 'anim.ruleta.amarilla' to 2 entities
+[00:03:07] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ce reload
+[00:03:14] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /time set day
+[00:03:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Mathewsito: Set the time to 1000]
+[00:03:19] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Mathewsito issued server command: /ruletaazul
+[00:03:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Added tag 'anim.ruleta.azul' to 2 entities
+[00:03:34] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: Gathering id map for writing to world save world
+[00:03:34] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks]: ID Map collection complete world
