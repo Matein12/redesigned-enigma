@@ -1878,3 +1878,249 @@ Things may not work well.
 [20Dec2024 19:49:51.291] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
 [20Dec2024 19:49:51.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
 [20Dec2024 19:49:51.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 19:50:22.028] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 19:50:22.620] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 19:50:22.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 19:50:22.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 19:50:29.116] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 19:50:29.726] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 19:50:29.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 19:50:29.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 19:50:32.972] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Dec2024 19:50:32.976] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Dec2024 19:50:37.571] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 19:50:37.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 19:50:37.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 19:50:44.765] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /effect clear
+[20Dec2024 19:50:44.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Removed every effect from Mathewsito]
+[20Dec2024 19:50:47.446] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 19:50:47.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 19:50:47.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Applied effect Darkness to Mathewsito
+[20Dec2024 19:53:12.150] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /title @s actionbar "\uEff0"
+[20Dec2024 19:53:12.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Showing new actionbar title for Mathewsito]
+[20Dec2024 19:53:23.513] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /playsound minecraft:dedsafio.flashbang master @s
+[20Dec2024 19:53:23.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Played sound minecraft:dedsafio.flashbang to Mathewsito]
+[20Dec2024 19:53:32.182] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /playsound minecraft:dedsafio.flashbang master @s
+[20Dec2024 19:53:32.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Played sound minecraft:dedsafio.flashbang to Mathewsito]
+[20Dec2024 19:53:57.992] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 19:53:57.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 19:53:57.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 19:54:26.815] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 19:54:27.913] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 19:54:27.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 19:54:27.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 19:54:47.321] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 19:54:48.094] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 19:54:48.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 19:54:48.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 19:55:20.849] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 19:55:22.065] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 19:55:22.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 19:55:22.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 19:55:22.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: No player was found
+[20Dec2024 19:55:32.973] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Dec2024 19:55:32.977] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Dec2024 19:56:29.473] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 19:56:31.649] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 19:56:31.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 19:56:31.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 19:56:41.171] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 19:56:41.714] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 19:56:41.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 19:56:41.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 19:57:27.106] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 19:57:27.110] [Server thread/ERROR] [Minecraft/]: Cannot load plugins/ConditionalEvents/config.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 66, column 7:
+          default:
+          ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 72, column 47:
+     ... le_command: title @s actionbar "\uEff0""
+                                         ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:110) ~[arclight-1.19.4-1.0.8-68fc338.jar%23164!/:arclight-1.19.4-1.0.8-68fc338] {re:mixin,re:classloading,re:mixin,re:mixin}
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[arclight-1.19.4-1.0.8-68fc338.jar%23164!/:arclight-1.19.4-1.0.8-68fc338] {re:mixin,re:classloading,re:mixin,re:mixin,re:mixin}
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[arclight-1.19.4-1.0.8-68fc338.jar%23164!/:arclight-1.19.4-1.0.8-68fc338] {re:mixin,re:classloading,re:mixin,re:mixin,re:mixin}
+	at ce.ajneb97.configs.CEConfig.loadConfiguration(CEConfig.java:108) ~[?:?] {}
+	at ce.ajneb97.configs.CEConfig.reloadConfig(CEConfig.java:75) ~[?:?] {}
+	at ce.ajneb97.configs.MainConfigManager.reloadConfig(MainConfigManager.java:66) ~[?:?] {}
+	at ce.ajneb97.configs.ConfigsManager.reload(ConfigsManager.java:263) ~[?:?] {}
+	at ce.ajneb97.MainCommand.onCommand(MainCommand.java:47) ~[?:?] {}
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[arclight-1.19.4-1.0.8-68fc338.jar%23164!/:arclight-1.19.4-1.0.8-68fc338] {re:mixin,re:classloading}
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[arclight-1.19.4-1.0.8-68fc338.jar%23164!/:arclight-1.19.4-1.0.8-68fc338] {re:mixin,re:classloading}
+	at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServerMixin.java:864) ~[arclight-1.19.4-1.0.8-68fc338.jar%23164!/:arclight-1.19.4-1.0.8-68fc338] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:CraftServerMixin,pl:mixin:A}
+	at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:50) ~[arclight-1.19.4-1.0.8-68fc338.jar%23164!/:arclight-1.19.4-1.0.8-68fc338] {re:classloading}
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263) ~[brigadier-1.0.18.jar%23108!/:?] {re:mixin,re:mixin}
+	at net.minecraft.commands.Commands.m_242674_(CommandsMixin.java:255) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.core.json:commands.CommandsMixin,pl:mixin:A}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerPlayNetHandlerMixin.java:2811) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ServerPlayNetHandlerMixin,pl:mixin:APP:pehkui.mixins.json:ServerPlayNetworkHandlerMixin,pl:mixin:APP:pehkui.mixins.json:compat1204minus.ServerPlayNetworkHandlerMixin,pl:mixin:APP:pehkui.mixins.json:reach.compat1204minus.ServerPlayNetworkHandlerMixin,pl:mixin:APP:pehkui.mixins.json:reach.compat1204minus.compat119plus.ServerPlayNetworkHandlerMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ServerGamePacketListenerImplMixin_Optimize,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerPlayNetHandlerMixin.java:1216) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ServerPlayNetHandlerMixin,pl:mixin:APP:pehkui.mixins.json:ServerPlayNetworkHandlerMixin,pl:mixin:APP:pehkui.mixins.json:compat1204minus.ServerPlayNetworkHandlerMixin,pl:mixin:APP:pehkui.mixins.json:reach.compat1204minus.ServerPlayNetworkHandlerMixin,pl:mixin:APP:pehkui.mixins.json:reach.compat1204minus.compat119plus.ServerPlayNetworkHandlerMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ServerGamePacketListenerImplMixin_Optimize,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?] {}
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:classloading}
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,re:computing_frames,re:classloading}
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServerMixin.java:773) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServerMixin.java:162) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServerMixin.java:756) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServerMixin.java:750) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServerMixin.java:736) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2083) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:252) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin,re:mixin,re:mixin}
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 66, column 7:
+          default:
+          ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 72, column 47:
+     ... le_command: title @s actionbar "\uEff0""
+                                         ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:679) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:185) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:277) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:210) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:357) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:336) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:311) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:212) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:134) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:160) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:559) ~[snakeyaml-1.33.jar%23132!/:?] {}
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:103) ~[arclight-1.19.4-1.0.8-68fc338.jar%23164!/:arclight-1.19.4-1.0.8-68fc338] {re:mixin,re:classloading,re:mixin,re:mixin}
+	... 30 more
+[20Dec2024 19:57:38.474] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 19:57:39.610] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 19:57:39.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 19:57:39.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 19:57:39.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: No player was found
+[20Dec2024 19:57:47.347] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 19:57:49.139] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 19:57:49.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 19:57:49.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 19:57:49.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Showing new actionbar title for Mathewsito
+[20Dec2024 19:57:57.971] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 19:57:58.634] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 19:57:58.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 19:57:58.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 19:57:58.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Showing new actionbar title for Mathewsito
+[20Dec2024 19:58:06.724] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 19:58:07.267] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 19:58:07.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 19:58:07.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 19:58:07.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Showing new actionbar title for Mathewsito
+[20Dec2024 19:58:30.342] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 19:58:31.365] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 19:58:31.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 19:58:31.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 19:58:31.366] [Server thread/ERROR] [Minecraft/]: Could not pass event PlayerCommandPreprocessEvent to ConditionalEvents v4.57.4
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[arclight-1.19.4-1.0.8-68fc338.jar%23164!/:arclight-1.19.4-1.0.8-68fc338] {re:mixin,re:classloading}
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[arclight-1.19.4-1.0.8-68fc338.jar%23164!/:arclight-1.19.4-1.0.8-68fc338] {re:mixin,re:classloading,re:mixin}
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[arclight-1.19.4-1.0.8-68fc338.jar%23164!/:arclight-1.19.4-1.0.8-68fc338] {re:mixin,re:classloading,re:mixin}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerPlayNetHandlerMixin.java:2790) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ServerPlayNetHandlerMixin,pl:mixin:APP:pehkui.mixins.json:ServerPlayNetworkHandlerMixin,pl:mixin:APP:pehkui.mixins.json:compat1204minus.ServerPlayNetworkHandlerMixin,pl:mixin:APP:pehkui.mixins.json:reach.compat1204minus.ServerPlayNetworkHandlerMixin,pl:mixin:APP:pehkui.mixins.json:reach.compat1204minus.compat119plus.ServerPlayNetworkHandlerMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ServerGamePacketListenerImplMixin_Optimize,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerPlayNetHandlerMixin.java:1216) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ServerPlayNetHandlerMixin,pl:mixin:APP:pehkui.mixins.json:ServerPlayNetworkHandlerMixin,pl:mixin:APP:pehkui.mixins.json:compat1204minus.ServerPlayNetworkHandlerMixin,pl:mixin:APP:pehkui.mixins.json:reach.compat1204minus.ServerPlayNetworkHandlerMixin,pl:mixin:APP:pehkui.mixins.json:reach.compat1204minus.compat119plus.ServerPlayNetworkHandlerMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ServerGamePacketListenerImplMixin_Optimize,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?] {}
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:classloading}
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,re:computing_frames,re:classloading}
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServerMixin.java:773) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServerMixin.java:162) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServerMixin.java:756) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServerMixin.java:750) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServerMixin.java:735) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2083) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:252) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin,re:mixin,re:mixin}
+Caused by: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:DEDSAFIO_FLASHBANG
+	at net.minecraft.resources.ResourceLocation.m_245185_(ResourceLocation.java:236) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:46) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at org.bukkit.craftbukkit.v1_19_R3.entity.CraftPlayer.playSound(CraftPlayerMixin.java:537) ~[arclight-1.19.4-1.0.8-68fc338.jar%23164!/:arclight-1.19.4-1.0.8-68fc338] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:CraftPlayerMixin,pl:mixin:A,pl:arclight_implementer:entitytype,pl:arclight_implementer:A,re:mixin}
+	at org.bukkit.craftbukkit.v1_19_R3.entity.CraftPlayer.playSound(CraftPlayerMixin.java:522) ~[arclight-1.19.4-1.0.8-68fc338.jar%23164!/:arclight-1.19.4-1.0.8-68fc338] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:CraftPlayerMixin,pl:mixin:A,pl:arclight_implementer:entitytype,pl:arclight_implementer:A,re:mixin}
+	at ce.ajneb97.utils.ActionUtils.playSoundResourcePack(ActionUtils.java:300) ~[?:?] {}
+	at ce.ajneb97.model.internal.ExecutedEvent.executeAction(ExecutedEvent.java:292) ~[?:?] {}
+	at ce.ajneb97.model.internal.ExecutedEvent.executeActionsFromToTarget(ExecutedEvent.java:224) ~[?:?] {}
+	at ce.ajneb97.model.internal.ExecutedEvent.executeActionsFinal(ExecutedEvent.java:143) ~[?:?] {}
+	at ce.ajneb97.model.internal.ExecutedEvent.executeActions(ExecutedEvent.java:98) ~[?:?] {}
+	at ce.ajneb97.managers.EventsManager.checkSingularEvent(EventsManager.java:133) ~[?:?] {}
+	at ce.ajneb97.managers.EventsManager.checkEvent(EventsManager.java:48) ~[?:?] {}
+	at ce.ajneb97.model.internal.ConditionEvent.checkEvent(ConditionEvent.java:77) ~[?:?] {}
+	at ce.ajneb97.listeners.PlayerEventsListener.onCommandUse(PlayerEventsListener.java:319) ~[?:?] {}
+	... 20 more
+[20Dec2024 19:58:35.884] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 19:58:37.013] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 19:58:37.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 19:58:37.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 19:58:37.014] [Server thread/ERROR] [Minecraft/]: Could not pass event PlayerCommandPreprocessEvent to ConditionalEvents v4.57.4
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[arclight-1.19.4-1.0.8-68fc338.jar%23164!/:arclight-1.19.4-1.0.8-68fc338] {re:mixin,re:classloading}
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[arclight-1.19.4-1.0.8-68fc338.jar%23164!/:arclight-1.19.4-1.0.8-68fc338] {re:mixin,re:classloading,re:mixin}
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[arclight-1.19.4-1.0.8-68fc338.jar%23164!/:arclight-1.19.4-1.0.8-68fc338] {re:mixin,re:classloading,re:mixin}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerPlayNetHandlerMixin.java:2790) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ServerPlayNetHandlerMixin,pl:mixin:APP:pehkui.mixins.json:ServerPlayNetworkHandlerMixin,pl:mixin:APP:pehkui.mixins.json:compat1204minus.ServerPlayNetworkHandlerMixin,pl:mixin:APP:pehkui.mixins.json:reach.compat1204minus.ServerPlayNetworkHandlerMixin,pl:mixin:APP:pehkui.mixins.json:reach.compat1204minus.compat119plus.ServerPlayNetworkHandlerMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ServerGamePacketListenerImplMixin_Optimize,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerPlayNetHandlerMixin.java:1216) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:network.ServerPlayNetHandlerMixin,pl:mixin:APP:pehkui.mixins.json:ServerPlayNetworkHandlerMixin,pl:mixin:APP:pehkui.mixins.json:compat1204minus.ServerPlayNetworkHandlerMixin,pl:mixin:APP:pehkui.mixins.json:reach.compat1204minus.ServerPlayNetworkHandlerMixin,pl:mixin:APP:pehkui.mixins.json:reach.compat1204minus.compat119plus.ServerPlayNetworkHandlerMixin,pl:mixin:APP:mixins.arclight.impl.forge.optimization.json:network.ServerGamePacketListenerImplMixin_Optimize,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?] {}
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:classloading}
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,re:computing_frames,re:classloading}
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServerMixin.java:773) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServerMixin.java:162) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServerMixin.java:756) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServerMixin.java:750) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServerMixin.java:735) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2083) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:252) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin,re:mixin,re:mixin}
+Caused by: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:DEDSAFIO_FLASHBANG
+	at net.minecraft.resources.ResourceLocation.m_245185_(ResourceLocation.java:236) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:38) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:46) ~[server-1.19.4-20230314.122934-srg.jar%23169!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at org.bukkit.craftbukkit.v1_19_R3.entity.CraftPlayer.playSound(CraftPlayerMixin.java:537) ~[arclight-1.19.4-1.0.8-68fc338.jar%23164!/:arclight-1.19.4-1.0.8-68fc338] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:CraftPlayerMixin,pl:mixin:A,pl:arclight_implementer:entitytype,pl:arclight_implementer:A,re:mixin}
+	at org.bukkit.craftbukkit.v1_19_R3.entity.CraftPlayer.playSound(CraftPlayerMixin.java:522) ~[arclight-1.19.4-1.0.8-68fc338.jar%23164!/:arclight-1.19.4-1.0.8-68fc338] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:CraftPlayerMixin,pl:mixin:A,pl:arclight_implementer:entitytype,pl:arclight_implementer:A,re:mixin}
+	at ce.ajneb97.utils.ActionUtils.playSoundResourcePack(ActionUtils.java:300) ~[?:?] {}
+	at ce.ajneb97.model.internal.ExecutedEvent.executeAction(ExecutedEvent.java:292) ~[?:?] {}
+	at ce.ajneb97.model.internal.ExecutedEvent.executeActionsFromToTarget(ExecutedEvent.java:224) ~[?:?] {}
+	at ce.ajneb97.model.internal.ExecutedEvent.executeActionsFinal(ExecutedEvent.java:143) ~[?:?] {}
+	at ce.ajneb97.model.internal.ExecutedEvent.executeActions(ExecutedEvent.java:98) ~[?:?] {}
+	at ce.ajneb97.managers.EventsManager.checkSingularEvent(EventsManager.java:133) ~[?:?] {}
+	at ce.ajneb97.managers.EventsManager.checkEvent(EventsManager.java:48) ~[?:?] {}
+	at ce.ajneb97.model.internal.ConditionEvent.checkEvent(ConditionEvent.java:77) ~[?:?] {}
+	at ce.ajneb97.listeners.PlayerEventsListener.onCommandUse(PlayerEventsListener.java:319) ~[?:?] {}
+	... 20 more
+[20Dec2024 19:59:15.405] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 19:59:16.317] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 19:59:16.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 19:59:16.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 19:59:16.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Showing new actionbar title for Mathewsito
+[20Dec2024 19:59:25.284] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 19:59:25.868] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 19:59:25.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 19:59:25.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 19:59:25.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Showing new actionbar title for Mathewsito
