@@ -109,3 +109,37 @@ Things may not work well.
 [20Dec2024 19:21:36.717] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /gamemode creative
 [20Dec2024 19:21:36.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Set own game mode to Creative Mode]
 [20Dec2024 19:34:37.070] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5157039a[id=<null>,name=Crisgamer0610,properties={},legacy=false] (/127.154.19.165:48511) lost connection: Disconnected
+[20Dec2024 19:43:34.693] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /gamemode survival
+[20Dec2024 19:43:34.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Set own game mode to Survival Mode]
+[20Dec2024 19:43:35.814] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /gamemode creative
+[20Dec2024 19:43:35.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Set own game mode to Creative Mode]
+[20Dec2024 19:45:07.271] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /effect give @a minecraft:darkness infinite
+[20Dec2024 19:45:07.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Applied effect Darkness to Mathewsito]
+[20Dec2024 19:45:22.454] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /time set night
+[20Dec2024 19:45:22.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Set the time to 13000]
+[20Dec2024 19:47:40.107] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /playsound minecraft:entity.lightning_bolt.impact master Mathewsito
+[20Dec2024 19:47:40.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Played sound minecraft:entity.lightning_bolt.impact to Mathewsito]
+[20Dec2024 19:47:45.073] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /playsound minecraft:entity.lightning_bolt.thunder master Mathewsito
+[20Dec2024 19:47:45.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Played sound minecraft:entity.lightning_bolt.thunder to Mathewsito]
+[20Dec2024 19:47:54.601] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /playsound minecraft:entity.lightning_bolt.impact master Mathewsito
+[20Dec2024 19:47:54.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Played sound minecraft:entity.lightning_bolt.impact to Mathewsito]
+[20Dec2024 19:48:04.010] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /playsound minecraft:entity.lightning_bolt.thunder master Mathewsito
+[20Dec2024 19:48:04.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Played sound minecraft:entity.lightning_bolt.thunder to Mathewsito]
+[20Dec2024 19:48:10.475] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /playsound minecraft:entity.lingering_potion.throw master Mathewsito
+[20Dec2024 19:48:10.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Played sound minecraft:entity.lingering_potion.throw to Mathewsito]
+[20Dec2024 19:48:15.765] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /playsound minecraft:entity.lightning_bolt.thunder master Mathewsito
+[20Dec2024 19:48:15.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Played sound minecraft:entity.lightning_bolt.thunder to Mathewsito]
+[20Dec2024 19:48:21.225] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /playsound minecraft:entity.lightning_bolt.impact master Mathewsito
+[20Dec2024 19:48:21.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Played sound minecraft:entity.lightning_bolt.impact to Mathewsito]
+[20Dec2024 19:49:13.466] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 19:49:15.704] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 19:49:15.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 19:49:15.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Applied effect Darkness to Mathewsito
+[20Dec2024 19:49:41.756] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 19:49:42.463] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 19:49:42.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 19:49:42.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 19:49:50.708] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 19:49:51.291] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 19:49:51.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 19:49:51.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
