@@ -2164,3 +2164,11 @@ Caused by: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character i
 [20Dec2024 20:01:32.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Played sound minecraft:ambient.crimson_forest.mood to Mathewsito]
 [20Dec2024 20:05:32.970] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [20Dec2024 20:05:32.974] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Dec2024 20:10:32.970] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Dec2024 20:10:32.973] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Dec2024 20:15:32.970] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Dec2024 20:15:32.973] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Dec2024 20:16:27.240] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /effect give Mathewsito minecraft:blindness infinite
+[20Dec2024 20:16:27.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Applied effect Blindness to Mathewsito]
+[20Dec2024 20:16:38.885] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /effect clear
+[20Dec2024 20:16:38.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Removed every effect from Mathewsito]
