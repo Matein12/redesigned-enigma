@@ -385,3 +385,39 @@ Caused by: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character i
 [20Dec2024 19:59:25.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
 [20Dec2024 19:59:25.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
 [20Dec2024 19:59:25.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Showing new actionbar title for Mathewsito
+[20Dec2024 20:00:05.853] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 20:00:06.516] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 20:00:06.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 20:00:06.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 20:00:06.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Showing new actionbar title for Mathewsito
+[20Dec2024 20:00:13.213] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 20:00:14.190] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 20:00:14.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 20:00:14.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 20:00:14.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Showing new actionbar title for Mathewsito
+[20Dec2024 20:00:20.733] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 20:00:21.669] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 20:00:21.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 20:00:21.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 20:00:21.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Showing new actionbar title for Mathewsito
+[20Dec2024 20:00:27.229] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 20:00:27.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 20:00:27.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 20:00:27.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Showing new actionbar title for Mathewsito
+[20Dec2024 20:00:37.663] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /ce reload
+[20Dec2024 20:00:38.285] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 20:00:38.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 20:00:38.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 20:00:38.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Showing new actionbar title for Mathewsito
+[20Dec2024 20:00:44.541] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 20:00:44.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 20:00:44.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 20:00:44.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Showing new actionbar title for Mathewsito
+[20Dec2024 20:00:52.074] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /cambio
+[20Dec2024 20:00:52.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 13000
+[20Dec2024 20:00:52.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[20Dec2024 20:00:52.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Showing new actionbar title for Mathewsito
+[20Dec2024 20:01:27.248] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /playsound minecraft:ambient.crimson_forest.additions master Mathewsito
+[20Dec2024 20:01:27.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Played sound minecraft:ambient.crimson_forest.additions to Mathewsito]
+[20Dec2024 20:01:32.512] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /playsound minecraft:ambient.crimson_forest.mood master Mathewsito
+[20Dec2024 20:01:32.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Played sound minecraft:ambient.crimson_forest.mood to Mathewsito]

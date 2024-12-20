@@ -66,7 +66,8 @@ Events:
       default:
       - "console_command: time set night"
       - "console_command: effect give @a minecraft:darkness infinite 0 true"
-      - 'to_all: playsound_resource_pack: dedsafio.flashbang;10;1.1'
+      - 'to_all: playsound_resource_pack: dedsafio.flashbang;10;-1'
+      - 'to_all: playsound_resource_pack: dedsafio.flashbang;10;1'
       - 'to_all: title: 1;20;10;"\uEff0";none'
       - 'console_command: title @a actionbar "\uEff0"'
 
