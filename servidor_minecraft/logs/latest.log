@@ -1,42 +1,110 @@
-[19:00:16] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 45.3.3, --fml.mcVersion, 1.19.4, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230314.122934, nogui]
-[19:00:16] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[19:00:16] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/redesigned-enigma/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23101!/ Service=ModLauncher Env=SERVER
-[19:00:16] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 2 dependencies adding them to mods collection
-[19:00:18] [main/INFO] [mixin]: Compatibility level set to JAVA_17
-[19:00:18] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
-[19:00:20] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[19:00:25] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 45.3.3, for MC 1.19.4 with MCP 20230314.122934
-[19:00:25] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v45.3.3 Initialized
-[19:00:26] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker]: Global Forge version check system disabled, no further processing.
-[19:00:27] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:00:27] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder]: Assets URL 'union:/workspaces/redesigned-enigma/servidor_minecraft/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%23181!/assets/.mcassetsroot' uses unexpected schema
-[19:00:27] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder]: Assets URL 'union:/workspaces/redesigned-enigma/servidor_minecraft/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%23181!/data/.mcassetsroot' uses unexpected schema
-[19:00:29] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 7 recipes
-[19:00:29] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1179 advancements
-[19:00:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.19.4
-[19:00:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[19:00:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[19:00:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
-[19:00:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[19:00:30] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using epoll channel type
-[19:00:30] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:00:30] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[19:00:30] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:00:30] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:00:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[19:00:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
-[19:00:37] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[19:00:37] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[19:00:37] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[19:00:37] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[19:00:37] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[19:00:37] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[19:00:37] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[19:00:37] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[19:00:37] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[19:00:38] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 42%
-[19:00:38] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 5070 ms
-[19:00:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (7.996s)! For help, type "help"
-[19:00:38] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
-[19:10:05] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Mathewsito[/127.63.245.196:57931] logged in with entity id 179 at (-319.59650059192046, 78.0, 127.4874755685752)
-[19:10:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Mathewsito joined the game
+[20Dec2024 19:20:02.744] [main/INFO] [Arclight/]: 
+
+       ___           ___     __   /\
+      /   | ________/ (_)__ / /  / /
+     / /| |/ __/ __/ / / _ / _ \/__/
+    / ___ / / / /_/ / / / / // / /
+   /_/  |/_/  \__/_/_/\_ /_//_/ /
+                     /__/     \/
+
+    运行版本 折威 / arclight-1.19.4-1.0.8-68fc338
+    构建日期 2024-02-28 15:06:30
+
+[20Dec2024 19:20:02.786] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 45.2.6, --fml.mcVersion, 1.19.4, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230314.122934, nogui]
+[20Dec2024 19:20:02.787] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[20Dec2024 19:20:02.897] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/redesigned-enigma/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2397!/ Service=ModLauncher Env=SERVER
+[20Dec2024 19:20:03.334] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/redesigned-enigma/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.4-45.2.6/fmlcore-1.19.4-45.2.6.jar is missing mods.toml file
+[20Dec2024 19:20:03.335] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/redesigned-enigma/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.4-45.2.6/javafmllanguage-1.19.4-45.2.6.jar is missing mods.toml file
+[20Dec2024 19:20:03.336] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/redesigned-enigma/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.4-45.2.6/lowcodelanguage-1.19.4-45.2.6.jar is missing mods.toml file
+[20Dec2024 19:20:03.338] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/redesigned-enigma/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.4-45.2.6/mclanguage-1.19.4-45.2.6.jar is missing mods.toml file
+[20Dec2024 19:20:03.470] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[20Dec2024 19:20:05.036] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20Dec2024 19:20:05.105] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [io.izzel.arclight.common.mod.ArclightConnector]
+[20Dec2024 19:20:05.147] [main/INFO] [Arclight/]: 核心 Mixin 配置已加载
+[20Dec2024 19:20:05.150] [main/INFO] [Arclight/]: 服务端优化 Mixin 配置已加载
+[20Dec2024 19:20:05.158] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[20Dec2024 19:20:08.433] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[20Dec2024 19:20:15.844] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 45.2.6, for MC 1.19.4 with MCP 20230314.122934
+[20Dec2024 19:20:15.846] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v45.2.6 Initialized
+[20Dec2024 19:20:15.897] [modloading-worker-0/INFO] [Arclight/]: Arclight Mod 已加载
+[20Dec2024 19:20:15.971] [modloading-worker-0/INFO] [Arclight/]: Arclight 事件系统已注册
+[20Dec2024 19:20:16.393] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: Global Forge version check system disabled, no further processing.
+[20Dec2024 19:20:17.670] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20Dec2024 19:20:17.769] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+forge (version 45.3.3 -> 45.2.6)
+Things may not work well.
+[20Dec2024 19:20:18.316] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/redesigned-enigma/servidor_minecraft/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%23169!/assets/.mcassetsroot' uses unexpected schema
+[20Dec2024 19:20:18.316] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/redesigned-enigma/servidor_minecraft/libraries/net/minecraft/server/1.19.4-20230314.122934/server-1.19.4-20230314.122934-srg.jar%23169!/data/.mcassetsroot' uses unexpected schema
+[20Dec2024 19:20:20.000] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[20Dec2024 19:20:20.374] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
+[20Dec2024 19:20:20.843] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.4
+[20Dec2024 19:20:20.843] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[20Dec2024 19:20:20.843] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[20Dec2024 19:20:20.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20Dec2024 19:20:20.961] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[20Dec2024 19:20:20.985] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[20Dec2024 19:20:21.392] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.19.4-1.0.8-68fc338 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT)
+[20Dec2024 19:20:21.487] [Server thread/INFO] [Arclight/]: 正在向 Bukkit 注册 ...
+[20Dec2024 19:20:22.081] [Server thread/INFO] [Arclight/]: 注册了 1 个材料，其中 0 个方块 1 个物品
+[20Dec2024 19:20:22.083] [Server thread/INFO] [Arclight/]: 注册了 1 个新的药水效果
+[20Dec2024 19:20:22.090] [Server thread/INFO] [Arclight/]: 注册了 39 个新的附魔
+[20Dec2024 19:20:22.093] [Server thread/INFO] [Arclight/]: 注册了 1 个新的生物类型
+[20Dec2024 19:20:22.093] [Server thread/INFO] [Arclight/]: 注册了 0 个新的村民职业
+[20Dec2024 19:20:22.095] [Server thread/INFO] [Arclight/]: 注册了 0 个新的生物群系
+[20Dec2024 19:20:22.134] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[20Dec2024 19:20:22.134] [Server thread/INFO] [STDOUT/]: Server Ping Player Sample Count: 12
+[20Dec2024 19:20:22.136] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[20Dec2024 19:20:22.257] [Server thread/INFO] [Arclight/]: 正在加载混淆数据 ...
+[20Dec2024 19:20:22.752] [Server thread/INFO] [Arclight/]: 正在加载 Plugin Patcher ...
+[20Dec2024 19:20:22.788] [Server thread/INFO] [Arclight/CLCACHE]: Obsolete plugin class cache is cleared
+[20Dec2024 19:20:23.300] [Server thread/INFO] [CustomizablePlayerModels/]: Loading CustomizablePlayerModels v0.6.19a
+[20Dec2024 19:20:23.300] [Server thread/INFO] [SimpleTimer/]: Loading SimpleTimer v1.5.2
+[20Dec2024 19:20:23.301] [Server thread/INFO] [PlaceholderAPI/]: Loading PlaceholderAPI v2.11.6
+[20Dec2024 19:20:23.302] [Server thread/INFO] [ConditionalEvents/]: Loading ConditionalEvents v4.57.4
+[20Dec2024 19:20:23.366] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[20Dec2024 19:20:23.411] [Server thread/INFO] [Arclight/]: 注册了 0 个新的世界类型
+[20Dec2024 19:20:26.348] [Server thread/INFO] [CustomizablePlayerModels/]: Enabling CustomizablePlayerModels v0.6.19a
+[20Dec2024 19:20:26.566] [Server thread/WARN] [CustomizablePlayerModels/]: Command API not found, using fallback command system.
+[20Dec2024 19:20:26.663] [Server thread/INFO] [CustomizablePlayerModels/]: Customizable Player Models Initialized
+[20Dec2024 19:20:26.664] [Server thread/INFO] [SimpleTimer/]: Enabling SimpleTimer v1.5.2
+[20Dec2024 19:20:26.667] [Server thread/WARN] [SimpleTimer/]: Loaded class me.clip.placeholderapi.expansion.PlaceholderExpansion from PlaceholderAPI v2.11.6 which is not a depend or softdepend of this plugin.
+[20Dec2024 19:20:26.675] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: simpletimer [1.5.2]
+[20Dec2024 19:20:26.716] [Server thread/INFO] [Console/]: [SimpleTimer] Successfully Enabled (v1.5.2)
+[20Dec2024 19:20:26.716] [Server thread/INFO] [Console/]: [SimpleTimer] Xhasi » Thanks for using my plugin
+[20Dec2024 19:20:26.905] [Server thread/INFO] [Console/]: [SimpleTimer] There is a new version available. (v1.6.0)
+[20Dec2024 19:20:26.905] [Server thread/INFO] [Console/]: [SimpleTimer] You can download it at: https://www.spigotmc.org/resources/109565/
+[20Dec2024 19:20:26.906] [Server thread/INFO] [PlaceholderAPI/]: Enabling PlaceholderAPI v2.11.6
+[20Dec2024 19:20:28.159] [Server thread/INFO] [PlaceholderAPI/]: Fetching available expansion information...
+[20Dec2024 19:20:28.168] [Server thread/INFO] [ConditionalEvents/]: Enabling ConditionalEvents v4.57.4
+[20Dec2024 19:20:28.407] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: conditionalevents [4.57.4]
+[20Dec2024 19:20:28.433] [Server thread/INFO] [Console/]: [ConditionalEvents] Has been enabled! Version: 4.57.4
+[20Dec2024 19:20:28.433] [Server thread/INFO] [Console/]: [ConditionalEvents] Thanks for using my plugin!   ~Ajneb97
+[20Dec2024 19:20:28.458] [Server thread/INFO] [Console/]: There is a new version available. (4.59.1)
+[20Dec2024 19:20:28.458] [Server thread/INFO] [Console/]: You can download it at: https://modrinth.com/plugin/conditionalevents
+[20Dec2024 19:20:28.478] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[20Dec2024 19:20:28.484] [Server thread/INFO] [PlaceholderAPI/]: Placeholder expansion registration initializing...
+[20Dec2024 19:20:28.492] [Server thread/INFO] [Console/]: 0 placeholder hook(s) registered!
+[20Dec2024 19:20:28.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20Dec2024 19:20:31.907] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Dec2024 19:20:31.907] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Dec2024 19:20:31.908] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Dec2024 19:20:31.914] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Dec2024 19:20:31.915] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Dec2024 19:20:31.915] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Dec2024 19:20:31.916] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Dec2024 19:20:31.995] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Dec2024 19:20:32.495] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
+[20Dec2024 19:20:32.990] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4496 ms
+[20Dec2024 19:20:32.991] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.685s)! For help, type "help"
+[20Dec2024 19:20:33.010] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[20Dec2024 19:20:33.011] [Server thread/INFO] [Arclight/]: Forwarding forge permission[forge:default_handler] to bukkit
+[20Dec2024 19:20:37.998] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Mathewsito is 78e769e0-b26a-4b5e-a81f-4a0b67a35cdd
+[20Dec2024 19:20:40.398] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mathewsito[/127.63.245.196:56869] logged in with entity id 191 at (-324.98624393838105, 65.0, 84.16718238414512)
+[20Dec2024 19:20:40.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mathewsito joined the game
+[20Dec2024 19:21:05.076] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /plugins
+[20Dec2024 19:21:31.951] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /gamemode creative
+[20Dec2024 19:21:31.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Set own game mode to Creative Mode]
+[20Dec2024 19:21:35.872] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /gamemode survival
+[20Dec2024 19:21:35.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Set own game mode to Survival Mode]
+[20Dec2024 19:21:36.717] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mathewsito issued server command: /gamemode creative
+[20Dec2024 19:21:36.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mathewsito: Set own game mode to Creative Mode]
